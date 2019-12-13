@@ -1,5 +1,5 @@
 
-==================================================================================================
+===================================================================================================
 
 CEEVEE is a clean, modern, fully responsive site template for your
 resume and portfolio. With this template, you can easily introduce
