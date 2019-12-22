@@ -456,10 +456,9 @@
             <h4>MOBA (Proof of Concept)</h4>
             <p><b>Software:</b> Unity (C#)</p>
             <p><b>description:</b> This project is a proof of concept to highlight some of the features used in a MOBA style game. It includes custom A* pathfinding
-            and custom made statemachines that implemenet fuzzy logic. There are 3 lanes which include towers and minions for each team. The minions will automatically path
-            towards the enemy base using pathfinding. If they encounter an enemy minion, their state will be changed, and will begin to fight the enemy minions. They will
-            also attack towers when encountered. Towers have similar functionality except they do not use pathfinding and instead are either idle, or attacking enemies within There
-            radius. </p>
+            and custom made statemachines that implemenet fuzzy logic. Pathfinding and statemachines were implemented on the lane minions to allow them to 
+            freely navigate towards the enemy base while also having the ability to adapt to their surroundings, such as attacking an enemy minion or tower. Towers
+            only implemented statemachines as they did not need to navigate, but still needed to change states between idling or attacking. </p>
             <p><b>Key Features:</b> A* Path Finding, State Machines, Fuzzy Logic</p>
             <!-- <p><b>Notes:</b> The Key Features of this project were made from scratch, and does not use Unity State Machines or NavMesh</p> -->
             <!-- <span class="categories"><i class="fa fa-tag"></i>Branding, Web Development</span> -->
@@ -502,9 +501,9 @@
          <div class="description-box">
             <h4>What to Watch</h4>
             <p><b>Software:</b> Android Studio (Java)</p>
-            <p><b>description:</b> What to Watch is a mobile app designed for android devices. The idea behind this app is to use it as a tool to help you decide 
-            what movie to watch, by presenting you with a movie selected at random within your chosen parameters. The movies can be saved by marking them
-            as favourites, this was achieved by using firebase framework.</p>
+            <p><b>description:</b> What to Watch is a mobile app designed for android devices. The idea behind the app was to use it as a tool to help you decide 
+            what movie to watch, by presenting you with a movie selected at random within your chosen parameters. The movies you liked most could be saved by marking them
+            as favourites, allowing you to keep track of all your favourite movies in one place.</p>
             <p><b>Key Features:</b> Firebase Authentication and Database, MovieDB API</p>
             <p><b>Notes:</b> This project is not available for download due to an expired API, resulting is a severe loss of functionality</p>
             <!-- <span class="categories"><i class="fa fa-tag"></i>Branding, Web Development</span> -->
